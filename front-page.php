@@ -42,6 +42,7 @@ while (have_posts()) { the_post(); ?>
 			</div>
 		</div>
 	</section>
+	<a class="home-scroller"></a>
 
 </div>
 
@@ -60,7 +61,7 @@ wp_reset_query();  // Restore global post data  ?>
 				<h2>Your details</h2>
 				<?php echo do_shortcode('[contact-form-7 id="69" title="Contact us"]'); ?>
 
-				<p>All fonts marked with * are required</p>
+				<p>All fields marked with * are required</p>
 			</div>
 		</div>
 	</div>
@@ -68,4 +69,4 @@ wp_reset_query();  // Restore global post data  ?>
 </div>
 
 
-<?php get_footer ?>
+<?php get_footer() ?>

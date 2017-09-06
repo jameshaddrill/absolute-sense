@@ -26,7 +26,6 @@
 
 	<header id="masthead" class="site-header">
 		<div class="container-full">
-
 			<div class="container">
 				<div class="row">
 					<div class="">
